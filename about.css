@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+
+.container{
+    width: min(90%,  1110px);
+    margin-inline: auto;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 7.5rem;
+}
+
+.box-img img{
+    width: 38rem;
+    height: 26.5rem;
+    border-radius: 1.25rem;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.story .header-story{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    background-color: #14b789;
+    padding-left: 6rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.header-story h1{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header-story img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-block: 0.18rem;
+}
+
+.story .info-story{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.info-story a{
+    text-decoration: none;
+    color: rgb(113, 114, 117);
+}
+
+.info-story a:hover{
+    color: rgb(20, 183, 137);
+}
+
+.info-story h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 2.7rem;
+}
+
+.info-story p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(113, 114, 117);
+    
+}
+
+/* Information  */
+
+.Information{
+    background-color: rgba(225, 227, 229, 0.4);
+    height: 40rem;
+    margin-bottom: 7rem;
+    padding: 5rem;
+}
+
+/* Information-one */
+
+.Information-one{
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Information-one h1{
+    padding: 1.25rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fafafa;
+}
+
+.info-table-one{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table-one th,td{
+    padding: 15px 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.info-table-one td{
+    color: rgba(83, 83, 83, 0.7);
+}
+
+.info-table-one th{
+    width: 30%;
+    color: #12c2b9; 
+    font-weight: 600;
+    border-right: 1px solid #e0e0e0;
+}
+
+.info-table-one tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+/* Information-two  */
+
+.Information-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Information-two .information-boxs{
+    padding: 1.875rem;
+}
+
+#info-box-1{
+    padding-right: 2rem;
+    border-bottom: 1px solid rgba(83, 83, 83, 0.3);
+    border-right: 1px solid rgba(83, 83, 83, 0.3);
+}
+
+#info-box-2{
+    padding-right: 2rem;
+    border-bottom: 1px solid rgba(83, 83, 83, 0.3);
+}
+
+#info-box-3{
+    padding-right: 5rem;
+    border-right: 1px solid rgba(83, 83, 83, 0.3);
+}
+
+.information-boxs h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.information-boxs p{
+    font-size: 1.25rem;
+    color: #14b789;
+}
+
+
+/* screen of media  */
+
+@media(max-width: 768px){
+    .story-section{
+        width: 100%;
+        padding: 3.9rem;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box .box-img img{
+        width: 100%;
+    }
+
+    .header-story h1{
+       margin-left: 5rem;
+    }
+
+    .Information{
+        display: flex;
+        flex-direction: column;
+        height: 52rem;
+        width: 100%;
+        padding: 3rem;
+
+    }
+
+    #info-box-1{
+        padding-left: 4.5rem;
+    }
+
+    #info-box-3{
+        padding-left: 4.5rem;
+    }
+
+    .Information-two{
+        width: 100%;
+        padding: auto;
+    }
+
+    #info-box-1{
+        padding-right: 0.5rem;
+        padding-left: 1rem;
+
+    }
+    
+    #info-box-2{
+        padding-right: 0;
+    }
+
+    #info-box-3{
+        padding-right: 3.5rem;
+        padding-left: 1rem;
+    }
+    
+
+}
