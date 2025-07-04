@@ -7,3 +7,9 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+.logo-grid-title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #333;
+  text-align: center;
+}
