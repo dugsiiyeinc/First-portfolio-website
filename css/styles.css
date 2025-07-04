@@ -213,3 +213,18 @@ body {
   display: flex;
 }
 
+.mobile-menu .close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--scrolled-text-color);
+  transition: var(--transition);
+}
+
+.mobile-menu .close-btn:hover {
+  color: var(--primary-color);
+}
+
+
