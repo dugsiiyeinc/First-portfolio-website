@@ -422,3 +422,17 @@ main {
     max-width: 350px;
   }
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar-brand a {
+    font-size: 1.5rem;
+  }
+
+  .mobile-menu .mobile-nav {
+    gap: 1.5rem;
+  }
+}
