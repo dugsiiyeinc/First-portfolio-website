@@ -48,3 +48,8 @@ body {
   z-index: 1000;
   transition: var(--transition);
 }
+.navbar.scrolled {
+  background-color: var(--scrolled-bg-color);
+  padding: 0.8rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
