@@ -13,3 +13,10 @@
   color: #333;
   text-align: center;
 }
+.logo-grid-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
