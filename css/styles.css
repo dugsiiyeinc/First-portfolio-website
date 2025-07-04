@@ -127,5 +127,19 @@ body {
 .navbar.scrolled .nav-item.active .nav-link::after {
   background-color: var(--primary-color);
 }
+.navbar-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-contact .icon {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+
+.navbar.scrolled .navbar-contact .icon {
+  color: #000;
+}
 
 
