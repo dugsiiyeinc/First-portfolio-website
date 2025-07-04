@@ -413,4 +413,12 @@ main {
   .available {
     font-size: 1.1rem;
   }
+   .hero-image-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-main-image {
+    max-width: 350px;
+  }
 }
