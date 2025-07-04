@@ -354,3 +354,15 @@ main {
   min-width: 300px;
   position: relative;
 }
+.hero-image-container {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
