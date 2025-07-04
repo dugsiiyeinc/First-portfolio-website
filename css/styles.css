@@ -342,3 +342,9 @@ main {
   font-size: 1.1rem;
   border: 2px solid transparent;
 }
+
+.cta-button:hover {
+  background-color: #444488;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
