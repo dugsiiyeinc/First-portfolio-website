@@ -184,3 +184,10 @@ body {
 }
 
 
+.hamburger:hover {
+  color: var(--hover-color);
+}
+
+.navbar.scrolled .hamburger:hover {
+  color: var(--primary-color);
+}
