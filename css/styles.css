@@ -398,6 +398,9 @@ main {
   .navbar-contact {
     display: none;
   }
+  .hamburger {
+    display: block;
+  }
    .hero {
     padding: 50px 20px;
   }
