@@ -268,3 +268,8 @@ body {
 main {
   padding-top: 80px;
 }
+
+.hero {
+  padding: 60px 20px;
+  color: #333;
+}
