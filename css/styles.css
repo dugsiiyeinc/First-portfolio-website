@@ -261,4 +261,7 @@ body {
   border-color: var(--primary-color);
 }
 
+.mobile-menu .navbar-contact .icon {
+  color: var(--scrolled-logo-color);
+}
 
