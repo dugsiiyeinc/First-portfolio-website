@@ -243,3 +243,9 @@ body {
   text-decoration: none;
 }
 
+.mobile-menu .navbar-contact {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
