@@ -74,3 +74,58 @@ body {
   color: var(--primary-color);
 }
 
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-hover a:hover {
+  border-bottom: 2px solid #00ffff;
+}
+
+.nav-item .nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.navbar.scrolled .nav-item .nav-link {
+  color: var(--scrolled-text-color);
+}
+
+.nav-item .nav-link:hover {
+  color: var(--hover-color);
+}
+
+.navbar.scrolled .nav-item .nav-link:hover {
+  color: var(--primary-color);
+}
+
+.nav-item.active .nav-link {
+  font-weight: 700;
+}
+
+.nav-item.active .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--secondary-color);
+}
+
+.navbar.scrolled .nav-item.active .nav-link::after {
+  background-color: var(--primary-color);
+}
+
+
