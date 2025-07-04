@@ -179,6 +179,8 @@ body {
   transition: var(--transition);
 }
 
-
+.navbar.scrolled .hamburger {
+  color: var(--scrolled-text-color);
+}
 
 
