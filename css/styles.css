@@ -141,5 +141,34 @@ body {
 .navbar.scrolled .navbar-contact .icon {
   color: #000;
 }
+.navbar-contact .contact-button {
+  background-color: transparent;
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.navbar.scrolled .navbar-contact .contact-button {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.navbar-contact .contact-button:hover {
+  background-color: blue;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.navbar.scrolled .navbar-contact .contact-button:hover {
+  background-color: blue;
+  color: var(--text-color);
+  border-color: var(--primary-color);
+}
 
 
