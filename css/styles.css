@@ -3,3 +3,7 @@
   background-color: #fff;
   padding: 4rem 1rem;
 }
+.logo-grid-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
