@@ -398,4 +398,7 @@ main {
   .navbar-contact {
     display: none;
   }
+   .hero {
+    padding: 50px 20px;
+  }
 }
