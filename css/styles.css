@@ -393,3 +393,9 @@ main {
     margin-top: 2rem;
   }
 }
+@media (max-width: 768px) {
+  .navbar-nav,
+  .navbar-contact {
+    display: none;
+  }
+}
