@@ -12,3 +12,24 @@
   --scrolled-button-text: var(--primary-color);
   --scrolled-button-border: var(--primary-color);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.background-container {
+  width: 100%;
+  min-height: 600px;
+  background: linear-gradient(to top left, #00b386 60%, #5b5bb0 60%);
+  position: relative;
+}
