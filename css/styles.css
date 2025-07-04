@@ -208,3 +208,8 @@ body {
   padding: 2rem;
   transition: var(--transition);
 }
+
+.mobile-menu.active {
+  display: flex;
+}
+
