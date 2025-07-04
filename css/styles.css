@@ -236,3 +236,10 @@ body {
   padding: 0;
   margin-bottom: 3rem;
 }
+
+.mobile-menu .nav-link {
+  font-size: 1.2rem;
+  color: var(--scrolled-text-color);
+  text-decoration: none;
+}
+
