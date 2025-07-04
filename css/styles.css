@@ -191,3 +191,20 @@ body {
 .navbar.scrolled .hamburger:hover {
   color: var(--primary-color);
 }
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--scrolled-bg-color);
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  transition: var(--transition);
+}
