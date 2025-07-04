@@ -328,3 +328,17 @@ main {
   display: block;
   font-size: 1.2rem;
 }
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+  border: 2px solid transparent;
+}
