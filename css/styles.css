@@ -171,4 +171,14 @@ body {
   border-color: var(--primary-color);
 }
 
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+
+
 
