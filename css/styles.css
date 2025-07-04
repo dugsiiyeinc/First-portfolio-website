@@ -435,4 +435,13 @@ main {
   .mobile-menu .mobile-nav {
     gap: 1.5rem;
   }
+  .hero-avatar {
+    width: 70px;
+    height: 70px;
+  }
+
+  .hero-greeting {
+    flex-direction: column;
+    gap: 15px;
+  }
 }
