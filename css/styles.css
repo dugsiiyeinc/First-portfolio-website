@@ -265,3 +265,6 @@ body {
   color: var(--scrolled-logo-color);
 }
 
+main {
+  padding-top: 80px;
+}
