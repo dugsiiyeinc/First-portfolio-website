@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+:root {
+  --primary-color: #21b573;
+  --secondary-color: #a7ffeb;
+  --text-color: #ffffff;
+  --hover-color: #00ffff;
+  --shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  --transition: all 0.3s ease;
+  --scrolled-bg-color: #ffffff;
+  --scrolled-text-color: #333333;
+  --scrolled-logo-color: var(--primary-color);
+  --scrolled-button-bg: var(--secondary-color);
+  --scrolled-button-text: var(--primary-color);
+  --scrolled-button-border: var(--primary-color);
 }
