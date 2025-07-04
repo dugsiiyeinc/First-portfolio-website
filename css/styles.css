@@ -288,3 +288,11 @@ main {
   flex: 1 1 400px;
   min-width: 300px;
 }
+
+.hero-greeting {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
