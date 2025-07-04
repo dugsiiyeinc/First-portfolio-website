@@ -375,3 +375,21 @@ main {
 }
 
 
+@media (max-width: 992px) {
+  .navbar-nav {
+    gap: 1rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-greeting {
+    justify-content: center;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
+}
