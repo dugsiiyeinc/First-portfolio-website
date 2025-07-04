@@ -248,4 +248,17 @@ body {
   gap: 1rem;
 }
 
+.mobile-menu .contact-button {
+  padding: 0.8rem 1.5rem;
+  background-color: var(--scrolled-button-bg);
+  color: var(--scrolled-button-text);
+  border-color: var(--scrolled-button-border);
+}
+
+.mobile-menu .contact-button:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border-color: var(--primary-color);
+}
+
 
