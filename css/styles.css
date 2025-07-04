@@ -401,4 +401,16 @@ main {
    .hero {
     padding: 50px 20px;
   }
+    .bubble {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .hello {
+    font-size: 1.3rem;
+  }
+
+  .available {
+    font-size: 1.1rem;
+  }
 }
