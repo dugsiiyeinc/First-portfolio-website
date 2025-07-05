@@ -33,4 +33,11 @@
   font-size: 2rem;
   font-weight: 600;
 }
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+}
+
 
