@@ -5,3 +5,18 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: min(90%, 1110px);
+    margin-inline: auto;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 7.5rem;
+}
+
+
