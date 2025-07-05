@@ -94,3 +94,13 @@
 .project-card:hover .project-image {
   transform: scale(1.03);
 }
+
+@media (max-width: 992px) {
+  .projects-header {
+    padding: 1.5rem;
+  }
+  
+  .projects-title {
+    font-size: 1.8rem;
+  }
+}
