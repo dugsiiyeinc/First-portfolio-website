@@ -66,3 +66,8 @@
     gap: 1rem;
   }
 }
+@media (max-width: 480px) {
+  .logo-grid {
+    padding: 2rem 1rem;
+  }
+}
