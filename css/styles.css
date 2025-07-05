@@ -20,3 +20,12 @@
   margin-bottom: 3rem;
   gap: 1.5rem;
 }
+.projects-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
