@@ -176,6 +176,39 @@
     color: #14b789;
 }
 
+@media(max-width: 768px) {
+    .story-section {
+        width: 100%;
+        padding: 3.9rem;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box .box-img img {
+        width: 100%;
+    }
+
+    .header-story h1 {
+        margin-left: 5rem;
+    }
+
+    .Information {
+        display: flex;
+        flex-direction: column;
+        height: 52rem;
+        width: 100%;
+        padding: 3rem;
+    }
+
+    #info-box-1,
+    #info-box-3 {
+        padding-left: 4.5rem;
+    }
+}
+
 
 
 
