@@ -19,4 +19,15 @@
     margin-bottom: 7.5rem;
 }
 
+.box-img img {
+    width: 38rem;
+    height: 26.5rem;
+    border-radius: 1.25rem;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
