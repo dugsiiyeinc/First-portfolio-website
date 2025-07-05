@@ -74,4 +74,11 @@
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
+  .logo-grid-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .logo-img {
+    max-width: 120px;
+  }
 }
