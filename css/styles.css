@@ -62,3 +62,18 @@
   display: flex;
   flex-direction: column;
 }
+
+.project-tag {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #21b573;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.project-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
