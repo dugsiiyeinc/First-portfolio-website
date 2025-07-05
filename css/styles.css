@@ -31,3 +31,35 @@
     gap: 2rem;
 }
 
+.story .header-story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    background-color: #14b789;
+    padding-left: 6rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.header-story h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header-story img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-block: 0.18rem;
+}
+
+
+
+
+
+
+
