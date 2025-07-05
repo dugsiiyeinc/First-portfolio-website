@@ -126,3 +126,31 @@
     height: 200px;
   }
 }
+@media (max-width: 480px) {
+  .projects-header {
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .projects-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .projects-title {
+    font-size: 1.3rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  
+  .project-card {
+    max-width: 100%;
+  }
+  
+  .project-image {
+    height: 180px;
+  }
+}
+
