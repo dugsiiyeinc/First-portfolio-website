@@ -23,3 +23,19 @@
   color: black;
 }
 
+.design-credit {
+  font-size: 1rem;
+  color: #717275;
+}
+
+.design-credit a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.design-credit a:hover {
+  color: #4b6cb7;
+  text-decoration: underline;
+}
