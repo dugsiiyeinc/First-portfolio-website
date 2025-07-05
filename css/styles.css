@@ -39,3 +39,19 @@
   color: #4b6cb7;
   text-decoration: underline;
 }
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+
+  .copyright,
+  .design-credit {
+    font-size: 0.875rem; 
+    text-align: center;  
+  }
+
+  .design-credit a {
+    font-size: 0.875rem;
+  }
+}
