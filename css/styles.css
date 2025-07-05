@@ -138,6 +138,45 @@
     background-color: #f9f9f9;
 }
 
+.Information-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Information-two .information-boxs {
+    padding: 1.875rem;
+}
+
+#info-box-1,
+#info-box-2,
+#info-box-3 {
+    border-bottom: 1px solid rgba(83, 83, 83, 0.3);
+}
+
+#info-box-1,
+#info-box-3 {
+    border-right: 1px solid rgba(83, 83, 83, 0.3);
+}
+
+.information-boxs h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.information-boxs p {
+    font-size: 1.25rem;
+    color: #14b789;
+}
+
+
 
 
 
