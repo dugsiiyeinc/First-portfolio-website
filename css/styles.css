@@ -50,3 +50,19 @@
     gap: 1.5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .logo-grid {
+    padding: 3rem 1rem;
+  }
+
+  .logo-grid-title {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+
+  .logo-grid-items {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+}
