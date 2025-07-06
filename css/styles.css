@@ -64,3 +64,49 @@
     box-shadow: 0 10px 20px rgb(20, 183, 137);
     border-color: rgb(20, 183, 137);
 }
+
+.box-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.price{
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.servise-box h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.servise-box p{
+    font-size: 14px;
+    color: #666;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.servise-box .discover-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.discover-btn:hover{
+    background-color: rgb(20, 183, 137);
+    box-shadow: 0 10px 20px rgba(37, 37, 37, 0.3);
+    color: #fff;
+}
+
