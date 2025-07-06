@@ -10,3 +10,12 @@
     width: min(90%,  1110px);
     margin-inline: auto;
 }
+
+.servise-section{
+    background-color: rgba(225, 227, 229, 0.4);
+    height: 75rem;
+    margin-top: 2rem;
+    margin-bottom: 7.5rem;
+    padding: 7rem;
+}
+
