@@ -65,4 +65,45 @@
     border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.contact-Services-one span {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    margin: 0.8rem 0.25rem;
+    font-size: 1rem;
+}
+
+.contact-Services-one span a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.contact-Services-one span a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-Services-one span:hover {
+    background-color: #14b789;
+    color: #ffffff;
+}
+
+.contact-Services-two li {
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    font-size: 13px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.contact-Services-two li:hover {
+    background-color: #14b789;
+    color: #ffffff;
+}
+
+
 
