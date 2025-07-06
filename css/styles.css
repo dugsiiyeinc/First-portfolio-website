@@ -110,3 +110,25 @@
     color: #fff;
 }
 
+.boxs-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 55%;
+    border-radius: 10%;
+    background-color: #f2f2f2;
+    transform: rotate(-35deg) translateY(55px);
+    transition: all ease 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    font-size: 2.75rem;
+    color: #333;
+}
+
+.boxs-icon:hover{
+    cursor: pointer;
+    background-color: rgb(20, 183, 137);
+}
+
