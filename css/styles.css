@@ -143,6 +143,33 @@ input:hover {
     background-color: rgba(108, 117, 125, 0.1);
 }
 
+.contact-two-box {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border: 1px solid rgba(113, 114, 117, 0.5);
+    background-color: #ffffff;
+    color: #717275;
+    cursor: pointer;
+}
+
+.contact-boxs i {
+    color: #14b789;
+}
+
+.contact-boxs:hover {
+    border-color: #14b789;
+    background-color: rgba(108, 117, 125, 0.1);
+}
+
 
 
 
