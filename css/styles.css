@@ -205,6 +205,48 @@ input:hover {
 }
 
 
+@media(max-width: 768px) {
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contact-one {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        box-shadow: 0;
+        gap: 1.5rem;
+    }
+
+    .contact-Services {
+        border-right: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-left: 1.5rem;
+    }
+
+    .contact-about {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-left: 1.5rem;
+    }
+
+    .contact-two-comment button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
 
 
 
