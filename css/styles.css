@@ -51,3 +51,18 @@
     margin-bottom: 5rem;
 }
 
+.contact-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-Services {
+    height: 25rem;
+    background-color: hsl(0, 0%, 100%);
+    padding: 3rem 0.9rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
