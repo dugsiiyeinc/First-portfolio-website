@@ -132,3 +132,27 @@
     background-color: rgb(20, 183, 137);
 }
 
+@media(max-width: 768px){
+    .servise-section{
+        width: 100%;
+        padding: 3.9rem;
+        height: 100%;
+    }
+
+    .servise-one{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 2rem;
+        height: 10rem;
+        background-color: rgb(20, 183, 137);
+        padding: 1rem  0;
+        width: 100%;
+    }
+
+    .servise-two{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
