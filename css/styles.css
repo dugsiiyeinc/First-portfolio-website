@@ -105,5 +105,24 @@
     color: #ffffff;
 }
 
+.contact-about {
+    height: 25rem;
+    background-color: #ffffff;
+    padding: 3rem 1rem;
+}
+
+.contact-about-one {
+    margin-bottom: 2rem;
+}
+
+.contact-about-one h4 {
+    padding-bottom: 1.5rem;
+}
+
+.contact-about-one p {
+    color: #6c757d;
+}
+
+
 
 
