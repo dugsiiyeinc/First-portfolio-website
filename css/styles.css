@@ -19,3 +19,25 @@
     padding: 7rem;
 }
 
+.servise-one{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 2rem;
+    height: 10rem;
+    background-color: rgb(20, 183, 137);
+    padding: 1rem  0;
+}
+
+.servise-one img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+.servise-one h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
