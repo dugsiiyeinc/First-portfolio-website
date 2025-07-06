@@ -47,3 +47,20 @@
     gap: 2rem;
     margin-top: 2rem;
 }
+
+.servise-box{
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    padding: 1.875rem;
+    overflow: hidden;
+    position: relative;
+    height: 23rem;
+    transition: all 0.5s;
+}
+
+.servise-box:hover{
+    box-shadow: 0 10px 20px rgb(20, 183, 137);
+    border-color: rgb(20, 183, 137);
+}
