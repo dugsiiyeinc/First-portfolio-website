@@ -203,13 +203,10 @@
         flex-direction: column;
         height: 52rem;
         width: 100%;
-        padding: 3rem;
+        padding: 2.5rem;
     }
 
-    #info-box-1,
-    #info-box-3 {
-        padding-left: 4.5rem;
-    }
+    
 }
 
 
