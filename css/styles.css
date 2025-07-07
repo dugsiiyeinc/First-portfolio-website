@@ -251,6 +251,16 @@ input:hover {
     }
 }
 
+@media(max-width: 480px){
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
 
 
 
