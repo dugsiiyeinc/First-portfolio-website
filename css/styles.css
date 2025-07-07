@@ -139,7 +139,7 @@
 @media(max-width: 768px){
     .section{
         width: 100%;
-        padding: 3rem;
+        padding: 0rem;
         height: 100%;
     }
 
@@ -157,6 +157,11 @@
     .servise-two{
         display: flex;
         flex-direction: column;
+        /* padding: 4.25rem; */
+    }
+
+    .boxs-icon{
+        margin-right: -2.2rem;
     }
 }
 
@@ -165,10 +170,13 @@
         width: 100%;
         padding:1rem;
         height: 100%;
+        margin-bottom: 2rem;
     }
 
     .servise-two{
         display: flex;
         flex-direction: column;
     }
+
+
 }
