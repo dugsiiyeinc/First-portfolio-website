@@ -272,6 +272,17 @@ input:hover {
         gap: 0.1rem;
     }
 
+    .contact-two-box{
+        width: 100%;
+        display: flex;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .contact-boxs{
+        padding-inline: 1.25rem;
+    }
+
     
 
 }
