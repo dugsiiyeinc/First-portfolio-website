@@ -153,14 +153,17 @@
 }
 
 #info-box-1,
-#info-box-2,
-#info-box-3 {
+#info-box-2{
     border-bottom: 1px solid rgba(83, 83, 83, 0.3);
 }
 
 #info-box-1,
 #info-box-3 {
     border-right: 1px solid rgba(83, 83, 83, 0.3);
+}
+
+#info-box-3{
+    padding-right: 4.3rem;
 }
 
 .information-boxs h2 {
