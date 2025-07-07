@@ -189,5 +189,11 @@
         flex-direction: column;
     }
 
+    .boxs-icon {
+        margin-right: 1rem;
+        
+
+    }
+
 
 }
