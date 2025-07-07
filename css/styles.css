@@ -243,16 +243,32 @@
     }
 
     #info-box-1{
-        padding-right: 0.5rem;
+        padding-right: 2rem;
     }
     #info-box-3{
-        padding-right: 2.9rem;
+        padding-right: 1.8rem;
+    }
+    #info-box-3 p{
+        width: 80px;
+        word-break: break-all;
+        text-align: start;
+        font-size: 1.4rem;
+        
     }
 
-    .information-boxs p{
-        font-size: 1.75rem;
-        line-break:strict;
+    .boxs-1{
+        padding: 0;
+        
     }
+
+   .boxs-1 p{
+        font-size: 1.5rem;
+        padding: 0;
+        width: 80px;
+        word-break: break-all;
+        text-align: start;
+        /* letter-spacing: 0.2rem; */
+   }
 
 }
 
