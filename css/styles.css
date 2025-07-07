@@ -230,6 +230,21 @@
         font-size: 1.7rem;
     }
 
+    .Information {
+        display: flex;
+        flex-direction: column;
+        height: 52rem;
+        width: 100%;
+        padding: 0rem;
+    }
+
+    #info-box-1{
+        padding-right: 0.5rem;
+    }
+    #info-box-3{
+        padding-right: 2.9rem;
+    }
+
 }
 
 
