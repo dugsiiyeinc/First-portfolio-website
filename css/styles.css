@@ -265,24 +265,14 @@ input:hover {
         width: 100%;
     }
 
-    .contact-Services{
-        display:flex;
-        flex-wrap: wrap;
-        padding:0.25rem;
-        gap: 0.1rem;
-    }
-
-    .contact-two-box{
-        width: 100%;
+    .contact-one{
         display: flex;
-        gap: 0.5rem;
-        padding: 0.5rem;
+        flex-direction: column;
+        gap: 0;
+        box-shadow: none;
     }
 
-    .contact-boxs{
-        padding-inline: 1.25rem;
-    }
-
+    
     
 
 }
