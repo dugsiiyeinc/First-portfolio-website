@@ -272,6 +272,11 @@ input:hover {
         box-shadow: none;
     }
 
+    .contact-two-name{
+        display: flex;
+        flex-direction: column;
+    }
+
     
     
 
