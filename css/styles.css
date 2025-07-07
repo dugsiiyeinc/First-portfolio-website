@@ -1,3 +1,55 @@
+
+.logo-grid {
+  width: 100%;
+  background-color: #fff;
+  padding: 4rem 1rem;
+}
+.logo-grid-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo-grid-title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #333;
+  text-align: center;
+}
+.logo-grid-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+.logo-img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  max-height: 80px;
+  object-fit: contain;
+   filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+.logo-grid-item:hover .logo-img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+  .logo-grid-items {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+
 :root {
   --primary-color: #21b573;
   --secondary-color: #a7ffeb;
@@ -192,10 +244,43 @@
   .header-story img {
     width: 7rem;
     height: 7rem;
+
   }
 }
 
 @media (max-width: 768px) {
+
+  .logo-grid {
+    padding: 3rem 1rem;
+  }
+
+  .logo-grid-title {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+  }
+
+  .logo-grid-items {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .logo-grid {
+    padding: 2rem 1rem;
+  }
+  .logo-grid-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .logo-grid-items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .logo-img {
+    max-width: 120px;
+  }
+}
+
   .story-section{
         width: 100%;
         padding: 3.9rem;
