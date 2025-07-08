@@ -1,4 +1,4 @@
-  
+
     document.addEventListener('DOMContentLoaded', function () {
       const navbar = document.getElementById('navbar');
       const hamburger = document.getElementById('hamburgerBtn');
